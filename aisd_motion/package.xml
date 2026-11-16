@@ -5,7 +5,10 @@
   <version>0.0.0</version>
   <description>ROS2 motion package for CST8504 Assignment 2</description>
   <maintainer email="aisd@todo.todo">Hadi Al-Sayed Ali</maintainer>
-  <license></license>
+  <license>None</license>
+
+  <depend>geometry_msgs</depend>
+  <depend>rclpy</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
