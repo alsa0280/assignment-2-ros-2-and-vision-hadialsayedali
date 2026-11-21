@@ -5,7 +5,7 @@ from std_msgs.msg import String
 from cv_bridge import CvBridge
 import cv2
 
-
+# Define this class as inheriting from class Node
 class ImagePublisher(Node):
 
     def __init__(self):
@@ -30,18 +30,21 @@ class ImagePublisher(Node):
 
 
 def main(args=None):
+    # Start the ROS2 communication process for this module
     rclpy.init(args=args)
 
+    # Create an ImagePublisher node
     image_publisher = ImagePublisher()
 
+    # Run the ImagePublisher node
     rclpy.spin(image_publisher)
 
-    # Destroy the node explicitly
-    # (optional - otherwise it will be done automatically
-    # when the garbage collector destroys the node object)
+    # Free up the node's resources when it stops running
     image_publisher.destroy_node()
+
+    # Shut down the ROS2 communication process for this module
     rclpy.shutdown()
 
-
+# If the module is run itself, call its main() function
 if __name__ == '__main__':
     main()
