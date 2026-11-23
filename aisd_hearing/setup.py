@@ -24,6 +24,9 @@ setup(
     },
     entry_points={
         'console_scripts': [
+        'recording_publisher = aisd_hearing.recording_publisher:main',
+        'words_publisher = aisd_hearing.words_publisher:main',
+        'speak_client = aisd_hearing.speak_client:main',
         ],
     },
 )

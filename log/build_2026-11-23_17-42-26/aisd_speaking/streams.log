@@ -1,0 +1,33 @@
+[4.219s] Invoking command in '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/aisd_speaking': PYTHONPATH=/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_speaking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aisd_speaking build --build-base /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_speaking/build install --record /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_speaking/install.log --install-scripts $base/lib/aisd_speaking --single-version-externally-managed install_data
+[4.699s] running egg_info
+[4.700s] creating ../build/aisd_speaking/aisd_speaking.egg-info
+[4.700s] writing ../build/aisd_speaking/aisd_speaking.egg-info/PKG-INFO
+[4.701s] writing dependency_links to ../build/aisd_speaking/aisd_speaking.egg-info/dependency_links.txt
+[4.701s] writing entry points to ../build/aisd_speaking/aisd_speaking.egg-info/entry_points.txt
+[4.702s] writing requirements to ../build/aisd_speaking/aisd_speaking.egg-info/requires.txt
+[4.702s] writing top-level names to ../build/aisd_speaking/aisd_speaking.egg-info/top_level.txt
+[4.702s] writing manifest file '../build/aisd_speaking/aisd_speaking.egg-info/SOURCES.txt'
+[4.707s] reading manifest file '../build/aisd_speaking/aisd_speaking.egg-info/SOURCES.txt'
+[4.709s] writing manifest file '../build/aisd_speaking/aisd_speaking.egg-info/SOURCES.txt'
+[4.709s] running build
+[4.709s] running build_py
+[4.710s] creating /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_speaking/build
+[4.710s] creating /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_speaking/build/lib
+[4.711s] creating /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_speaking/build/lib/aisd_speaking
+[4.711s] copying aisd_speaking/__init__.py -> /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_speaking/build/lib/aisd_speaking
+[4.712s] running install
+[4.713s] running install_lib
+[4.715s] creating /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/lib/python3.10/site-packages/aisd_speaking
+[4.716s] copying /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_speaking/build/lib/aisd_speaking/__init__.py -> /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/lib/python3.10/site-packages/aisd_speaking
+[4.718s] byte-compiling /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/lib/python3.10/site-packages/aisd_speaking/__init__.py to __init__.cpython-310.pyc
+[4.719s] running install_data
+[4.719s] creating /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/share/ament_index
+[4.720s] creating /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/share/ament_index/resource_index
+[4.720s] creating /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/share/ament_index/resource_index/packages
+[4.721s] copying resource/aisd_speaking -> /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/share/ament_index/resource_index/packages
+[4.721s] copying package.xml -> /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/share/aisd_speaking
+[4.722s] running install_egg_info
+[4.727s] Copying ../build/aisd_speaking/aisd_speaking.egg-info to /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/lib/python3.10/site-packages/aisd_speaking-0.0.0-py3.10.egg-info
+[4.729s] running install_scripts
+[4.773s] writing list of installed files to '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_speaking/install.log'
+[4.823s] Invoked command in '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/aisd_speaking' returned '0': PYTHONPATH=/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_speaking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aisd_speaking build --build-base /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_speaking/build install --record /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_speaking/install.log --install-scripts $base/lib/aisd_speaking --single-version-externally-managed install_data

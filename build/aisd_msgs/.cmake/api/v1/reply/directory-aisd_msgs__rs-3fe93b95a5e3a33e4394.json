@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "aisd_msgs__rs",
+		"source" : "/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_msgs/aisd_msgs__rs"
+	}
+}

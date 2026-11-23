@@ -1,0 +1,22 @@
+[2.226s] Invoking command in '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/aisd_motion': PYTHONPATH=/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aisd_motion build --build-base /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_motion/build install --record /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_motion/install.log --install-scripts $base/lib/aisd_motion --single-version-externally-managed install_data
+[2.778s] running egg_info
+[2.780s] writing ../build/aisd_motion/aisd_motion.egg-info/PKG-INFO
+[2.780s] writing dependency_links to ../build/aisd_motion/aisd_motion.egg-info/dependency_links.txt
+[2.780s] writing entry points to ../build/aisd_motion/aisd_motion.egg-info/entry_points.txt
+[2.781s] writing requirements to ../build/aisd_motion/aisd_motion.egg-info/requires.txt
+[2.781s] writing top-level names to ../build/aisd_motion/aisd_motion.egg-info/top_level.txt
+[2.785s] reading manifest file '../build/aisd_motion/aisd_motion.egg-info/SOURCES.txt'
+[2.785s] adding license file 'LICENSE'
+[2.787s] writing manifest file '../build/aisd_motion/aisd_motion.egg-info/SOURCES.txt'
+[2.787s] running build
+[2.788s] running build_py
+[2.788s] running install
+[2.789s] running install_lib
+[2.791s] running install_data
+[2.792s] running install_egg_info
+[2.796s] removing '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion/lib/python3.10/site-packages/aisd_motion-0.0.0-py3.10.egg-info' (and everything under it)
+[2.796s] Copying ../build/aisd_motion/aisd_motion.egg-info to /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion/lib/python3.10/site-packages/aisd_motion-0.0.0-py3.10.egg-info
+[2.798s] running install_scripts
+[2.843s] Installing move script to /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion/lib/aisd_motion
+[2.844s] writing list of installed files to '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_motion/install.log'
+[2.892s] Invoked command in '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/aisd_motion' returned '0': PYTHONPATH=/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aisd_motion build --build-base /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_motion/build install --record /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_motion/install.log --install-scripts $base/lib/aisd_motion --single-version-externally-managed install_data

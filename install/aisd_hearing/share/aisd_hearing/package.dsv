@@ -1,0 +1,3 @@
+source;share/aisd_hearing/hook/pythonpath.ps1
+source;share/aisd_hearing/hook/pythonpath.dsv
+source;share/aisd_hearing/hook/pythonpath.sh

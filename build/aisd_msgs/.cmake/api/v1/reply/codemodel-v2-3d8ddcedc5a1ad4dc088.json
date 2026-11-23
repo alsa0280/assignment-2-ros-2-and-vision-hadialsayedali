@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-26c7d84a3676baa5f652.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "aisd_msgs__py",
+					"jsonFile" : "directory-aisd_msgs__py-d263cbb69487cd5c3549.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_msgs/aisd_msgs__py",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "aisd_msgs__rs",
+					"jsonFile" : "directory-aisd_msgs__rs-3fe93b95a5e3a33e4394.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_msgs/aisd_msgs__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "aisd_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "aisd_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aisd_msgs-4b6c4924769bac4c8a57.json",
+					"name" : "aisd_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aisd_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aisd_msgs__cpp-c2a625aae9330574461c.json",
+					"name" : "aisd_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "aisd_msgs__py::@1fe50fa998d5c066640c",
+					"jsonFile" : "target-aisd_msgs__py-e2ac09b69478baf89150.json",
+					"name" : "aisd_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aisd_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aisd_msgs__rosidl_generator_c-95355490f040f4a35cd9.json",
+					"name" : "aisd_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aisd_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aisd_msgs__rosidl_generator_py-aa8c85d2e5cd5b69a12e.json",
+					"name" : "aisd_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aisd_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aisd_msgs__rosidl_typesupport_c-d868328e5e3f204eeabd.json",
+					"name" : "aisd_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aisd_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aisd_msgs__rosidl_typesupport_c__pyext-a4892aaee28c14ce8e2a.json",
+					"name" : "aisd_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aisd_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aisd_msgs__rosidl_typesupport_cpp-432ee91e5d683bbe5b15.json",
+					"name" : "aisd_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aisd_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aisd_msgs__rosidl_typesupport_fastrtps_c-dd7be3d744176c569289.json",
+					"name" : "aisd_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aisd_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aisd_msgs__rosidl_typesupport_fastrtps_c__pyext-b2d1a803a50039053ef3.json",
+					"name" : "aisd_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aisd_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aisd_msgs__rosidl_typesupport_fastrtps_cpp-262d4259e1d2a8f27af4.json",
+					"name" : "aisd_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aisd_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aisd_msgs__rosidl_typesupport_introspection_c-2d0102d3884ad6ac8a9c.json",
+					"name" : "aisd_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aisd_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aisd_msgs__rosidl_typesupport_introspection_c__pyext-a5a7d61298164bb54dd9.json",
+					"name" : "aisd_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aisd_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aisd_msgs__rosidl_typesupport_introspection_cpp-43e25f19b5e604b7b75c.json",
+					"name" : "aisd_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "aisd_msgs__rs::@31689380e7e7ea943698",
+					"jsonFile" : "target-aisd_msgs__rs-24819ed4c592fd35b7f8.json",
+					"name" : "aisd_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aisd_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aisd_msgs_uninstall-657cc90ef33589e719ce.json",
+					"name" : "aisd_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_aisd_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_aisd_msgs_egg-9524fccb8276efdff33c.json",
+					"name" : "ament_cmake_python_build_aisd_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_aisd_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_aisd_msgs-ec21f0f72664d5eaa3f4.json",
+					"name" : "ament_cmake_python_copy_aisd_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-252a607d92dd65415c8d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_msgs",
+		"source" : "/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/aisd_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

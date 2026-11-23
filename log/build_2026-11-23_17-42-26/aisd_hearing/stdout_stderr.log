@@ -1,0 +1,31 @@
+running egg_info
+creating ../build/aisd_hearing/aisd_hearing.egg-info
+writing ../build/aisd_hearing/aisd_hearing.egg-info/PKG-INFO
+writing dependency_links to ../build/aisd_hearing/aisd_hearing.egg-info/dependency_links.txt
+writing entry points to ../build/aisd_hearing/aisd_hearing.egg-info/entry_points.txt
+writing requirements to ../build/aisd_hearing/aisd_hearing.egg-info/requires.txt
+writing top-level names to ../build/aisd_hearing/aisd_hearing.egg-info/top_level.txt
+writing manifest file '../build/aisd_hearing/aisd_hearing.egg-info/SOURCES.txt'
+reading manifest file '../build/aisd_hearing/aisd_hearing.egg-info/SOURCES.txt'
+writing manifest file '../build/aisd_hearing/aisd_hearing.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_hearing/build
+creating /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_hearing/build/lib
+creating /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_hearing/build/lib/aisd_hearing
+copying aisd_hearing/__init__.py -> /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_hearing/build/lib/aisd_hearing
+running install
+running install_lib
+creating /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing/lib/python3.10/site-packages/aisd_hearing
+copying /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_hearing/build/lib/aisd_hearing/__init__.py -> /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing/lib/python3.10/site-packages/aisd_hearing
+byte-compiling /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing/lib/python3.10/site-packages/aisd_hearing/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing/share/ament_index
+creating /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing/share/ament_index/resource_index
+creating /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing/share/ament_index/resource_index/packages
+copying resource/aisd_hearing -> /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing/share/ament_index/resource_index/packages
+copying package.xml -> /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing/share/aisd_hearing
+running install_egg_info
+Copying ../build/aisd_hearing/aisd_hearing.egg-info to /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing/lib/python3.10/site-packages/aisd_hearing-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_hearing/install.log'

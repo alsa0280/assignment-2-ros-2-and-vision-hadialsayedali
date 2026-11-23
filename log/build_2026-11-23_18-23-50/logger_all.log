@@ -1,0 +1,338 @@
+[0.136s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.136s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff3a50c3910>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff3a50c33d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff3a50c33d0>>)
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.329s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_hearing) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_hearing) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_hearing) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_hearing) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_hearing) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_hearing) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_hearing) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_hearing) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_hearing) by extension 'ros'
+[0.374s] DEBUG:colcon.colcon_core.package_identification:Found ROS schema reference in package manifest in 'aisd_hearing'
+[0.374s] WARNING:colcon.colcon_core.package_identification:Failed to parse ROS package manifest in 'aisd_hearing': Error(s) in package 'aisd_hearing/package.xml':
+The license tag must neither be empty nor only contain whitespaces
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_hearing) by extensions ['cmake', 'python']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_hearing) by extension 'cmake'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_hearing) by extension 'python'
+[0.374s] DEBUG:colcon.colcon_core.package_identification:Python package in 'aisd_hearing' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_hearing) by extensions ['python_setup_py']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_hearing) by extension 'python_setup_py'
+[0.692s] DEBUG:colcon.colcon_core.package_identification:Package 'aisd_hearing' with type 'python' and name 'aisd_hearing'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_motion) by extensions ['ignore', 'ignore_ament_install']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_motion) by extension 'ignore'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_motion) by extension 'ignore_ament_install'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_motion) by extensions ['colcon_pkg']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_motion) by extension 'colcon_pkg'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_motion) by extensions ['colcon_meta']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_motion) by extension 'colcon_meta'
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_motion) by extensions ['ros']
+[0.693s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_motion) by extension 'ros'
+[0.693s] DEBUG:colcon.colcon_core.package_identification:Package 'aisd_motion' with type 'ros.ament_python' and name 'aisd_motion'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_msgs) by extension 'ignore'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_msgs) by extension 'ignore_ament_install'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_msgs) by extensions ['colcon_pkg']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_msgs) by extension 'colcon_pkg'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_msgs) by extensions ['colcon_meta']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_msgs) by extension 'colcon_meta'
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_msgs) by extensions ['ros']
+[0.694s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_msgs) by extension 'ros'
+[0.695s] DEBUG:colcon.colcon_core.package_identification:Package 'aisd_msgs' with type 'ros.ament_cmake' and name 'aisd_msgs'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_speaking) by extensions ['ignore', 'ignore_ament_install']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_speaking) by extension 'ignore'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_speaking) by extension 'ignore_ament_install'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_speaking) by extensions ['colcon_pkg']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_speaking) by extension 'colcon_pkg'
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_speaking) by extensions ['colcon_meta']
+[0.695s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_speaking) by extension 'colcon_meta'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_speaking) by extensions ['ros']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_speaking) by extension 'ros'
+[0.696s] DEBUG:colcon.colcon_core.package_identification:Package 'aisd_speaking' with type 'ros.ament_python' and name 'aisd_speaking'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_vision) by extension 'ignore'
+[0.696s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_vision) by extension 'ignore_ament_install'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_vision) by extensions ['colcon_pkg']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_vision) by extension 'colcon_pkg'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_vision) by extensions ['colcon_meta']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_vision) by extension 'colcon_meta'
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_vision) by extensions ['ros']
+[0.697s] Level 1:colcon.colcon_core.package_identification:_identify(aisd_vision) by extension 'ros'
+[0.698s] DEBUG:colcon.colcon_core.package_identification:Package 'aisd_vision' with type 'ros.ament_python' and name 'aisd_vision'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.699s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.699s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.699s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.699s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.699s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.742s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install
+[0.744s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 191 installed packages in /opt/ros/humble
+[0.745s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'aisd_hearing' build argument 'cmake_args' from command line to 'None'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'aisd_hearing' build argument 'cmake_target' from command line to 'None'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'aisd_hearing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'aisd_hearing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'aisd_hearing' build argument 'cmake_clean_first' from command line to 'False'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'aisd_hearing' build argument 'cmake_force_configure' from command line to 'False'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'aisd_hearing' build argument 'ament_cmake_args' from command line to 'None'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'aisd_hearing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'aisd_hearing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.781s] DEBUG:colcon.colcon_core.verb:Building package 'aisd_hearing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_hearing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing', 'merge_install': False, 'path': '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/aisd_hearing', 'symlink_install': False, 'test_result_base': None}
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'aisd_motion' build argument 'cmake_args' from command line to 'None'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'aisd_motion' build argument 'cmake_target' from command line to 'None'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'aisd_motion' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'aisd_motion' build argument 'cmake_clean_cache' from command line to 'False'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'aisd_motion' build argument 'cmake_clean_first' from command line to 'False'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'aisd_motion' build argument 'cmake_force_configure' from command line to 'False'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'aisd_motion' build argument 'ament_cmake_args' from command line to 'None'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'aisd_motion' build argument 'catkin_cmake_args' from command line to 'None'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'aisd_motion' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.782s] DEBUG:colcon.colcon_core.verb:Building package 'aisd_motion' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_motion', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion', 'merge_install': False, 'path': '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/aisd_motion', 'symlink_install': False, 'test_result_base': None}
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'aisd_msgs' build argument 'cmake_args' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'aisd_msgs' build argument 'cmake_target' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'aisd_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'aisd_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'aisd_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'aisd_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'aisd_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'aisd_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'aisd_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.783s] DEBUG:colcon.colcon_core.verb:Building package 'aisd_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs', 'merge_install': False, 'path': '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/aisd_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'aisd_speaking' build argument 'cmake_args' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'aisd_speaking' build argument 'cmake_target' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'aisd_speaking' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'aisd_speaking' build argument 'cmake_clean_cache' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'aisd_speaking' build argument 'cmake_clean_first' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'aisd_speaking' build argument 'cmake_force_configure' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'aisd_speaking' build argument 'ament_cmake_args' from command line to 'None'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'aisd_speaking' build argument 'catkin_cmake_args' from command line to 'None'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'aisd_speaking' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.784s] DEBUG:colcon.colcon_core.verb:Building package 'aisd_speaking' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_speaking', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking', 'merge_install': False, 'path': '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/aisd_speaking', 'symlink_install': False, 'test_result_base': None}
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'aisd_vision' build argument 'cmake_args' from command line to 'None'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'aisd_vision' build argument 'cmake_target' from command line to 'None'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'aisd_vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'aisd_vision' build argument 'cmake_clean_cache' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'aisd_vision' build argument 'cmake_clean_first' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'aisd_vision' build argument 'cmake_force_configure' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'aisd_vision' build argument 'ament_cmake_args' from command line to 'None'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'aisd_vision' build argument 'catkin_cmake_args' from command line to 'None'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'aisd_vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.785s] DEBUG:colcon.colcon_core.verb:Building package 'aisd_vision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_vision', 'merge_install': False, 'path': '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/aisd_vision', 'symlink_install': False, 'test_result_base': None}
+[0.785s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.786s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.787s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/aisd_msgs' with build type 'ament_cmake'
+[0.787s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/aisd_msgs'
+[0.790s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.790s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.790s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.794s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/aisd_hearing'
+[0.795s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.795s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.798s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/aisd_motion' with build type 'ament_python'
+[0.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('aisd_motion', 'ament_prefix_path')
+[0.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion/share/aisd_motion/hook/ament_prefix_path.ps1'
+[0.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion/share/aisd_motion/hook/ament_prefix_path.dsv'
+[0.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion/share/aisd_motion/hook/ament_prefix_path.sh'
+[0.802s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.802s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.806s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/aisd_speaking' with build type 'ament_python'
+[0.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('aisd_speaking', 'ament_prefix_path')
+[0.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/share/aisd_speaking/hook/ament_prefix_path.ps1'
+[0.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/share/aisd_speaking/hook/ament_prefix_path.dsv'
+[0.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/share/aisd_speaking/hook/ament_prefix_path.sh'
+[0.808s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.809s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.819s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_vision:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing:/opt/ros/humble /usr/bin/cmake --build /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_msgs -- -j4 -l4
+[1.804s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/aisd_motion'
+[1.805s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.805s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.132s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/aisd_speaking'
+[2.132s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.132s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_vision:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing:/opt/ros/humble /usr/bin/cmake --build /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_msgs -- -j4 -l4
+[2.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_vision:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing:/opt/ros/humble /usr/bin/cmake --install /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_msgs
+[2.149s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: egg_info, install_data, build_py, install_scripts, saveopts, init_catalog, test, register, build_clib, install, rotate, update_catalog, bdist_egg, clean, build, install_egg_info, compile_catalog, alias, upload, symlink_data, bdist_dumb, bdist_rpm, develop, bdist, extract_messages, install_headers, build_ext, install_lib, dist_info, build_scripts, sdist, easy_install, setopt, check, upload_docs, bdist_wheel
+[2.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/aisd_hearing': PYTHONPATH=/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_hearing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aisd_hearing build --build-base /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_hearing/build install --record /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_hearing/install.log --install-scripts $base/lib/aisd_hearing --single-version-externally-managed install_data
+[2.293s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aisd_msgs)
+[2.298s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs' for CMake module files
+[2.300s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs' for CMake config files
+[2.300s] Level 1:colcon.colcon_core.shell:create_environment_hook('aisd_msgs', 'cmake_prefix_path')
+[2.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/share/aisd_msgs/hook/cmake_prefix_path.ps1'
+[2.302s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/share/aisd_msgs/hook/cmake_prefix_path.dsv'
+[2.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/share/aisd_msgs/hook/cmake_prefix_path.sh'
+[2.305s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/lib'
+[2.305s] Level 1:colcon.colcon_core.shell:create_environment_hook('aisd_msgs', 'ld_library_path_lib')
+[2.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/share/aisd_msgs/hook/ld_library_path_lib.ps1'
+[2.307s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/share/aisd_msgs/hook/ld_library_path_lib.dsv'
+[2.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_vision:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing:/opt/ros/humble /usr/bin/cmake --install /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_msgs
+[2.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/share/aisd_msgs/hook/ld_library_path_lib.sh'
+[2.310s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/bin'
+[2.311s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/lib/pkgconfig/aisd_msgs.pc'
+[2.311s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/lib/python3.10/site-packages'
+[2.312s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/bin'
+[2.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/share/aisd_msgs/package.ps1'
+[2.316s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/share/aisd_msgs/package.dsv'
+[2.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/share/aisd_msgs/package.sh'
+[2.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/share/aisd_msgs/package.bash'
+[2.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/share/aisd_msgs/package.zsh'
+[2.323s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/share/colcon-core/packages/aisd_msgs)
+[2.325s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aisd_msgs)
+[2.325s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs' for CMake module files
+[2.327s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs' for CMake config files
+[2.327s] Level 1:colcon.colcon_core.shell:create_environment_hook('aisd_msgs', 'cmake_prefix_path')
+[2.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/share/aisd_msgs/hook/cmake_prefix_path.ps1'
+[2.329s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/share/aisd_msgs/hook/cmake_prefix_path.dsv'
+[2.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/share/aisd_msgs/hook/cmake_prefix_path.sh'
+[2.332s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/lib'
+[2.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('aisd_msgs', 'ld_library_path_lib')
+[2.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/share/aisd_msgs/hook/ld_library_path_lib.ps1'
+[2.333s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/share/aisd_msgs/hook/ld_library_path_lib.dsv'
+[2.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/share/aisd_msgs/hook/ld_library_path_lib.sh'
+[2.335s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/bin'
+[2.336s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/lib/pkgconfig/aisd_msgs.pc'
+[2.336s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/lib/python3.10/site-packages'
+[2.337s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/bin'
+[2.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/share/aisd_msgs/package.ps1'
+[2.340s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/share/aisd_msgs/package.dsv'
+[2.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/share/aisd_msgs/package.sh'
+[2.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/share/aisd_msgs/package.bash'
+[2.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/share/aisd_msgs/package.zsh'
+[2.345s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_msgs/share/colcon-core/packages/aisd_msgs)
+[2.346s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/aisd_vision' with build type 'ament_python'
+[2.347s] Level 1:colcon.colcon_core.shell:create_environment_hook('aisd_vision', 'ament_prefix_path')
+[2.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_vision/share/aisd_vision/hook/ament_prefix_path.ps1'
+[2.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_vision/share/aisd_vision/hook/ament_prefix_path.dsv'
+[2.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_vision/share/aisd_vision/hook/ament_prefix_path.sh'
+[2.351s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.351s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.978s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/aisd_vision'
+[2.978s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.978s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.984s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing' for CMake module files
+[2.985s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/aisd_hearing' returned '0': PYTHONPATH=/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_hearing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aisd_hearing build --build-base /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_hearing/build install --record /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_hearing/install.log --install-scripts $base/lib/aisd_hearing --single-version-externally-managed install_data
+[2.986s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing' for CMake config files
+[2.987s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing/lib'
+[2.987s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing/bin'
+[2.987s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing/lib/pkgconfig/aisd_hearing.pc'
+[2.988s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing/lib/python3.10/site-packages'
+[2.988s] Level 1:colcon.colcon_core.shell:create_environment_hook('aisd_hearing', 'pythonpath')
+[2.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing/share/aisd_hearing/hook/pythonpath.ps1'
+[2.989s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing/share/aisd_hearing/hook/pythonpath.dsv'
+[2.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing/share/aisd_hearing/hook/pythonpath.sh'
+[2.991s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing/bin'
+[2.991s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aisd_hearing)
+[2.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing/share/aisd_hearing/package.ps1'
+[2.992s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing/share/aisd_hearing/package.dsv'
+[2.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing/share/aisd_hearing/package.sh'
+[2.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing/share/aisd_hearing/package.bash'
+[2.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing/share/aisd_hearing/package.zsh'
+[2.994s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_hearing/share/colcon-core/packages/aisd_hearing)
+[2.995s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: egg_info, install_data, build_py, install_scripts, saveopts, init_catalog, test, register, build_clib, install, rotate, update_catalog, bdist_egg, clean, build, install_egg_info, compile_catalog, alias, upload, symlink_data, bdist_dumb, bdist_rpm, develop, bdist, extract_messages, install_headers, build_ext, install_lib, dist_info, build_scripts, sdist, easy_install, setopt, check, upload_docs, bdist_wheel
+[3.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/aisd_speaking': PYTHONPATH=/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_speaking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aisd_speaking build --build-base /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_speaking/build install --record /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_speaking/install.log --install-scripts $base/lib/aisd_speaking --single-version-externally-managed install_data
+[3.022s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: egg_info, install_data, build_py, install_scripts, saveopts, init_catalog, test, register, build_clib, install, rotate, update_catalog, bdist_egg, clean, build, install_egg_info, compile_catalog, alias, upload, symlink_data, bdist_dumb, bdist_rpm, develop, bdist, extract_messages, install_headers, build_ext, install_lib, dist_info, build_scripts, sdist, easy_install, setopt, check, upload_docs, bdist_wheel
+[3.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/aisd_motion': PYTHONPATH=/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aisd_motion build --build-base /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_motion/build install --record /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_motion/install.log --install-scripts $base/lib/aisd_motion --single-version-externally-managed install_data
+[3.397s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking' for CMake module files
+[3.397s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking' for CMake config files
+[3.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/aisd_speaking' returned '0': PYTHONPATH=/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_speaking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aisd_speaking build --build-base /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_speaking/build install --record /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_speaking/install.log --install-scripts $base/lib/aisd_speaking --single-version-externally-managed install_data
+[3.399s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/lib'
+[3.399s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/bin'
+[3.399s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/lib/pkgconfig/aisd_speaking.pc'
+[3.399s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/lib/python3.10/site-packages'
+[3.399s] Level 1:colcon.colcon_core.shell:create_environment_hook('aisd_speaking', 'pythonpath')
+[3.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/share/aisd_speaking/hook/pythonpath.ps1'
+[3.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/share/aisd_speaking/hook/pythonpath.dsv'
+[3.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/share/aisd_speaking/hook/pythonpath.sh'
+[3.402s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/bin'
+[3.402s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aisd_speaking)
+[3.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/share/aisd_speaking/package.ps1'
+[3.404s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/share/aisd_speaking/package.dsv'
+[3.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/share/aisd_speaking/package.sh'
+[3.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/share/aisd_speaking/package.bash'
+[3.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/share/aisd_speaking/package.zsh'
+[3.406s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_speaking/share/colcon-core/packages/aisd_speaking)
+[3.690s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion' for CMake module files
+[3.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/aisd_motion' returned '0': PYTHONPATH=/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aisd_motion build --build-base /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_motion/build install --record /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_motion/install.log --install-scripts $base/lib/aisd_motion --single-version-externally-managed install_data
+[3.691s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion' for CMake config files
+[3.693s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion/lib'
+[3.693s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion/bin'
+[3.693s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion/lib/pkgconfig/aisd_motion.pc'
+[3.693s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion/lib/python3.10/site-packages'
+[3.694s] Level 1:colcon.colcon_core.shell:create_environment_hook('aisd_motion', 'pythonpath')
+[3.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion/share/aisd_motion/hook/pythonpath.ps1'
+[3.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion/share/aisd_motion/hook/pythonpath.dsv'
+[3.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion/share/aisd_motion/hook/pythonpath.sh'
+[3.698s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion/bin'
+[3.698s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aisd_motion)
+[3.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion/share/aisd_motion/package.ps1'
+[3.700s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion/share/aisd_motion/package.dsv'
+[3.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion/share/aisd_motion/package.sh'
+[3.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion/share/aisd_motion/package.bash'
+[3.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion/share/aisd_motion/package.zsh'
+[3.704s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_motion/share/colcon-core/packages/aisd_motion)
+[3.755s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: egg_info, install_data, build_py, install_scripts, saveopts, init_catalog, test, register, build_clib, install, rotate, update_catalog, bdist_egg, clean, build, install_egg_info, compile_catalog, alias, upload, symlink_data, bdist_dumb, bdist_rpm, develop, bdist, extract_messages, install_headers, build_ext, install_lib, dist_info, build_scripts, sdist, easy_install, setopt, check, upload_docs, bdist_wheel
+[3.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/aisd_vision': PYTHONPATH=/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aisd_vision build --build-base /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_vision/build install --record /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_vision/install.log --install-scripts $base/lib/aisd_vision --single-version-externally-managed install_data
+[4.120s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_vision' for CMake module files
+[4.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/aisd_vision' returned '0': PYTHONPATH=/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aisd_vision build --build-base /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_vision/build install --record /home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/build/aisd_vision/install.log --install-scripts $base/lib/aisd_vision --single-version-externally-managed install_data
+[4.122s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_vision' for CMake config files
+[4.122s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_vision/lib'
+[4.122s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_vision/bin'
+[4.122s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_vision/lib/pkgconfig/aisd_vision.pc'
+[4.123s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_vision/lib/python3.10/site-packages'
+[4.123s] Level 1:colcon.colcon_core.shell:create_environment_hook('aisd_vision', 'pythonpath')
+[4.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_vision/share/aisd_vision/hook/pythonpath.ps1'
+[4.124s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_vision/share/aisd_vision/hook/pythonpath.dsv'
+[4.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_vision/share/aisd_vision/hook/pythonpath.sh'
+[4.125s] Level 1:colcon.colcon_core.environment:checking '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_vision/bin'
+[4.125s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aisd_vision)
+[4.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_vision/share/aisd_vision/package.ps1'
+[4.127s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_vision/share/aisd_vision/package.dsv'
+[4.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_vision/share/aisd_vision/package.sh'
+[4.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_vision/share/aisd_vision/package.bash'
+[4.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_vision/share/aisd_vision/package.zsh'
+[4.129s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/aisd_vision/share/colcon-core/packages/aisd_vision)
+[4.129s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.130s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.130s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.130s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.131s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.131s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/local_setup.ps1'
+[4.132s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/_local_setup_util_ps1.py'
+[4.134s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/setup.ps1'
+[4.136s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/local_setup.sh'
+[4.137s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/_local_setup_util_sh.py'
+[4.137s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/setup.sh'
+[4.139s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/local_setup.bash'
+[4.140s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/setup.bash'
+[4.141s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/local_setup.zsh'
+[4.142s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aisd/ros2_ws/src/assignment-2-ros-2-and-vision-hadialsayedali/install/setup.zsh'
